@@ -12,9 +12,18 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "config": {
+        "googleMapsApiKey": "AIzaSyCZaIkUapTdwy2BQd01luLUGOUzhe5GqZY" // chave api do google console developer
+      },
       "supportsTablet": true
     },
     "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCZaIkUapTdwy2BQd01luLUGOUzhe5GqZY"
+        }
+      },
+
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
